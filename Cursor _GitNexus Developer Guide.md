@@ -204,6 +204,18 @@ Analyze this function error and check impact on dependent modules before fixing
   * “update this function only”
 
 ---
+## When MCP (GitNexus) is active:
+
+- Always use dependency analysis before:
+  - modifying existing code
+  - debugging
+  - refactoring
+
+- Skip dependency analysis for:
+  - new isolated features
+  - UI-only changes
+
+This ensures safe changes while optimizing token usage.
 
 # ⚙️ 4. When to Use Auto / Max / Premium Mode
 
